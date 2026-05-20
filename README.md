@@ -123,4 +123,4 @@ Request 11 at 15:59:57 → {"error":"Rate limit exceeded: 10 per 1 minute"} (HTT
 Request 12 at 15:59:57 → {"error":"Rate limit exceeded: 10 per 1 minute"} (HTTP 429)
 ```
 
-**결과:** 요청 1~10은 성공(200), 11~12는 차단(429) — rate limiter 정상 동작 확인 
+**결과:** 요청 1-10은 성공(200), 11-12는 차단(429) — rate limiter 정상 동작 확인
